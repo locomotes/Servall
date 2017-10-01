@@ -40,11 +40,11 @@ Native mobile application that records, displays, and manages exchanges between 
 
 **Addresses**
 
-1. Aggregate donation address: This the litecoin address that sends all donations. 
+1. **Aggregate donation address**: This the litecoin address that sends all donations. 
 
-2. Administration address: This is the litecoin address that collects the administrative fees. 
+2. **Administration address**: This is the litecoin address that collects the administrative fees. 
 
-3. Aggregate recipient address: This the litecoin address that receives all donations.
+3. **Aggregate recipient address**: This the litecoin address that receives all donations.
 
 **What we are doing today**
 
@@ -57,7 +57,8 @@ Would use op_return to hold the transactional data of the donation. This would b
 <table>
   <tr>
     <td></td>
-    <td> **Sign Up View**
+    <td> 
+    **Sign Up View**
 
 Create an account and login with facebook. </td>
   </tr>
@@ -67,7 +68,8 @@ Create an account and login with facebook. </td>
 <table>
   <tr>
     <td></td>
-    <td>Threads 
+    <td>
+    **Threads**
 
 Venmo-like timeline view where users can see a feed of all transactions taking place between donors and recipients.
 
@@ -79,7 +81,8 @@ Filters for just the users transactions (Me), transactions of the user’s Faceb
 <table>
   <tr>
     <td></td>
-    <td> **Profile View**
+    <td> 
+    **Profile View**
 
 This would be a profile view for a user who can both donate AND receive funds. 
 
@@ -91,7 +94,8 @@ When users sign up for accounts, they will default to donors ONLY. There will be
 <table>
   <tr>
     <td></td>
-    <td> **Donate View**
+    <td>
+    **Donate View**
 
 When a user clicks a CTA to donate, they will be presented with this view. 
 
@@ -105,7 +109,8 @@ There will be a numeric input for the donation amount. Also, there will be a tex
 <table>
   <tr>
     <td></td>
-    <td> **Recipient View**
+    <td> 
+    **Recipient View**
 
 When a user donation is submitted, the recipient will be presented with this view in order to receive the funds. 
 
@@ -119,7 +124,8 @@ There will be a text field for the recipient to add a thank you message for the 
 <table>
   <tr>
     <td></td>
-    <td> **Thank You Donor View**
+    <td> 
+    **Thank You Donor View**
 
 Once the recipient submits their thank you message, the donor is directed to their thank you view. 
 
