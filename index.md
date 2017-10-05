@@ -57,7 +57,7 @@ Would use op_return to hold the transactional data of the donation. This would b
 <table>
   <tr>
     <td>
-      
+![Sign Up View](https://locomotes.github.io/Servall/images/SERVALL_UI-10.png)
     </td>
     <td> 
     **Sign Up View**
