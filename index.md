@@ -10,9 +10,9 @@ The problem is that money is oftentimes given to charity and the donor has no id
 
 ## Who’s it for?
 
-1. **Charitable ****d****onors** - those who give to support charitable causes and want transparency into how the money is being allocated.
+1. **Charitable donors** - those who give to support charitable causes and want transparency into how the money is being allocated.
 
-2. **Charitable ****r****ecipients** - those on the receiving end of charitable donations who want an easy way to apply for and accepts funds. 
+2. **Charitable recipients** - those on the receiving end of charitable donations who want an easy way to apply for and accepts funds. 
 
 ## Why build it?
 
@@ -56,7 +56,9 @@ Would use op_return to hold the transactional data of the donation. This would b
 
 <table>
   <tr>
-    <td></td>
+    <td>
+      
+    </td>
     <td> 
     **Sign Up View**
 
