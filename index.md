@@ -57,10 +57,10 @@ Would use op_return to hold the transactional data of the donation. This would b
 <table>
   <tr>
     <td>
-![Sign Up View](https://locomotes.github.io/Servall/images/SERVALL_UI-10.png)
+    <img src="https://locomotes.github.io/Servall/images/SERVALL_UI-10.png" width="200"/>
     </td>
     <td> 
-    **Sign Up View**
+    <strong>Sign Up View</strong>
 
 Create an account and login with facebook. </td>
   </tr>
@@ -69,9 +69,11 @@ Create an account and login with facebook. </td>
 
 <table>
   <tr>
-    <td></td>
     <td>
-    **Threads**
+    <img src="https://locomotes.github.io/Servall/images/SERVALL_UI-11.png" width="250"/>
+    </td>
+    <td>
+    <strong>Threads</strong>
 
 Venmo-like timeline view where users can see a feed of all transactions taking place between donors and recipients.
 
@@ -82,9 +84,11 @@ Filters for just the users transactions (Me), transactions of the user’s Faceb
 
 <table>
   <tr>
-    <td></td>
+    <td>
+    <img src="https://locomotes.github.io/Servall/images/SERVALL_UI-12.png" width="250"/>
+    </td>
     <td> 
-    **Profile View**
+    <strong>Profile View</strong>
 
 This would be a profile view for a user who can both donate AND receive funds. 
 
@@ -95,9 +99,11 @@ When users sign up for accounts, they will default to donors ONLY. There will be
 
 <table>
   <tr>
-    <td></td>
     <td>
-    **Donate View**
+    <img src="https://locomotes.github.io/Servall/images/SERVALL_UI-13.png" width="250"/>
+    </td>
+    <td>
+    <strong>Donate View</strong>
 
 When a user clicks a CTA to donate, they will be presented with this view. 
 
@@ -110,9 +116,11 @@ There will be a numeric input for the donation amount. Also, there will be a tex
 
 <table>
   <tr>
-    <td></td>
+    <td>
+    <img src="https://locomotes.github.io/Servall/images/SERVALL_UI-14.png" width="250"/>
+    </td>
     <td> 
-    **Recipient View**
+    <strong>Recipient View</strong>
 
 When a user donation is submitted, the recipient will be presented with this view in order to receive the funds. 
 
@@ -125,9 +133,11 @@ There will be a text field for the recipient to add a thank you message for the 
 
 <table>
   <tr>
-    <td></td>
+    <td>
+    <img src="https://locomotes.github.io/Servall/images/SERVALL_UI-15.png" width="250"/>
+    </td>
     <td> 
-    **Thank You Donor View**
+    <strong>Thank You Donor View</strong>
 
 Once the recipient submits their thank you message, the donor is directed to their thank you view. 
 
