@@ -1,4 +1,57 @@
-# Servall Blockhack MVP
+# Servall Blockhack MVP Intro & Overview
+
+The Servall team won first place at the 2017 Lincoln Blockchain Hackathon at the Duke University School of Law. The native mobile app was designed and developed in 48 hours. The project serves as a proof of concept for a public ledger that tracks the distribution of charitable donations. The team used the Litecoin protocol and React native for the front-end. 
+
+<table>
+  <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall.png" />
+    </td>
+  </tr>
+  <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (1).png" />
+    </td>
+  </tr>
+  <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (2).png" />
+    </td>
+  </tr>
+  <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (3).png" />
+    </td>
+  </tr>
+  <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (4).png" />
+    </td>
+  </tr>
+   <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (5).png" />
+    </td>
+  </tr>
+   <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (6).png" />
+    </td>
+  </tr>
+   <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (7).png" />
+    </td>
+  </tr>
+   <tr>
+  <td>
+    <img src="https://locomotes.github.io/Servall/images/Servall (8).png" />
+    </td>
+  </tr>
+  
+</table>
+
+# Servall Blockhack Product Spec
 
 *"public ledger to track the distribution of charitable donations"*
 
@@ -48,11 +101,11 @@ Native mobile application that records, displays, and manages exchanges between 
 
 **What we are doing today**
 
-Whenever a donor sends us USD via paypal to our admin paypal account. When this is received in the admin paypal account, we’ll send a representative amount 0.01 LTC = $1 to our aggregate recipient address. When it becomes time to allocate funds to a recipient, we randomly pick a user from our database and send them a pending request that they have funds to redeem. The recipient enters their thank you message, and we will send a paypal transaction from our admin paypal account to the recipient’s paypal account. At the same time, we sent another representative amount back to aggregated donation address. 
+A donor sends us USD via Stripe to our admin account. When this is received, we send a representative amount 0.01 LTC = $1 to our aggregate recipient address. When it becomes time to allocate funds to a recipient, we randomly pick a user from our database and send them a pending request that they have funds to redeem. The recipient enters their thank you message, and we will send a Stripe transaction from our admin account to the recipient’s account. At the same time, we send another representative amount back to aggregated donation address. 
 
 **What we plan on doing**
 
-Would use op_return to hold the transactional data of the donation. This would be the donor message with paypal transaction id, identifier for our database and the amount. privatedbID,paypalTXID,amount. Bitcoin and litecoin have op_return. However, we would create our own coin so we would not have to pay the transaction cost. The coin would not incentivise mining. We’d control all the coins, and the value of the coin would be representative of the US dollar but would not be redeemable. 
+Would use op_return to hold the transactional data of the donation. This would be the donor message with Stripe transaction id, identifier for our database and the amount (privatedbID, StripeTXID, amount). Bitcoin and litecoin have op_return. However, we would create our own coin so we would not have to pay the transaction cost. The coin would not incentivise mining. We’d control all the coins, and the value of the coin would be representative of the US dollar but would not be redeemable. 
 
 <table>
   <tr>
@@ -209,5 +262,3 @@ Inspiration from a region that we want to serve. The serval is a wild cat native
 	Sand 40%: #fcdabc;
 
 	Sand 10%: #fff5ed
-
-
